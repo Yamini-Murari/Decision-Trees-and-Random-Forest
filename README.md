@@ -36,4 +36,50 @@ Features Used:
 
 Target:
 
-- Diagnosis: M (Malignant), B (Benign)
+- Diagnosis: M(Malignant),B(Benign)
+
+### steps involved
+1.data loading and preprocessing
+
+  - loaded csv file using pandas
+
+  - mapped diagnosis(M,B) to numeric values(0,1)
+
+2.model training
+
+- trained a decision tree classifier
+
+- trained a pruned  tree with max_depth=3 to prevent overfitting
+
+ - trained a Random Forest Classifier with 100 trees
+
+3.visualization
+
+  - visualized the pruned decision tree using plot_tree
+
+  - displayed a bar chart of feature importance from the random forest
+
+4.model evaluation
+
+  - evaluated models using accuracy score
+
+  - performed cross-validation(cv=3) to assess generalization
+### Results
+printed the accuracy of:
+
+- Decision Tree
+
+- pruned Decision Tree
+
+- Random Forest
+
+Visualized:
+
+- pruned tree structure for interpretability
+
+- feature importance chart for understanding the most influential features
+
+ - performed cross-validation to reduce bias from a single train-test split
+
+   ### OUTPUT :
+   
