@@ -23,3 +23,17 @@ Model evaluation using accuracy and cross-validation
 | matplotlib| visualization of tree and features|
 | scikit-learn | machine learning models and other packages|
 
+### Dataset
+Features Used:
+
+- radius_mean
+
+- texture_mean
+
+- perimeter_mean
+
+- area_mean
+
+Target:
+
+- Diagnosis: M (Malignant), B (Benign)
