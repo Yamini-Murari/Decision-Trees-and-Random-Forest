@@ -15,3 +15,11 @@ Feature importance analysis
 
 Model evaluation using accuracy and cross-validation
 
+### libraries used
+| tool | used for |
+|---------|--------|
+| python	| Programming language|
+| pandas  | dataset loading(csv) |
+| matplotlib| visualization of tree and features|
+| scikit-learn | machine learning models and other packages|
+
