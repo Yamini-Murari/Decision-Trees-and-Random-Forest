@@ -82,4 +82,5 @@ Visualized:
  - performed cross-validation to reduce bias from a single train-test split
 
    ### OUTPUT :
+   ![Image](https://github.com/user-attachments/assets/db0bb7a6-f11e-4779-841d-e31344a59a1b)
    
